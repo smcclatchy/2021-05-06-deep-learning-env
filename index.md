@@ -300,7 +300,6 @@ Edit/replace the text above if you want to include a schedule table.
 See the contents of the _includes/custom_schedule.html file for an example of
 how one of these schedule tables is constructed.
 {% endcomment %}
-{% endif %}
 
 <hr/>
 
