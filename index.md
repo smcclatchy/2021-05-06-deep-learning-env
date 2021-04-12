@@ -295,11 +295,6 @@ of code below the Schedule `<h2>` header below with
 
 {% include none/schedule.html %}
 
-{% comment %}
-Edit/replace the text above if you want to include a schedule table.
-See the contents of the _includes/custom_schedule.html file for an example of
-how one of these schedule tables is constructed.
-{% endcomment %}
 
 <hr/>
 
@@ -331,11 +326,6 @@ please preview your site before committing, and make sure to run
   you will need access to software as described below.
   In addition, you will need an up-to-date web browser.
 </p>
-<p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-</p>
 
 {% comment %}
 For online workshops, the section below provides:
@@ -357,8 +347,3 @@ during the workshop.
 {% endcomment %}
 
 {% include none/setup.html %}
-{% elsif site.carpentry == "pilot" %}
-Please check the "Setup" page of
-[the lesson site]({{ site.lesson_site }}) for instructions to follow
-to obtain the software and data you will need to follow the lesson.
-{% endif %}
